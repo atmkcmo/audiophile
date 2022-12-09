@@ -21,7 +21,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./src/images/screenshot.png)
+![](./src/images/assets/screenshot.png)
 
 
 - Live Site URL: [https://atmkcmo.github.io/audiophile/](https://atmkcmo.github.io/audiophile/)
@@ -52,6 +52,13 @@ npm run dev
 
 ```sh
 npn run build
+```
+
+
+### Preview Build Locally
+
+```sh
+npn run preview
 ```
 
 
