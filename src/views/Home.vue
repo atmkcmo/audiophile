@@ -14,7 +14,7 @@
                             <p class="">Experience natural, lifelike audio and exceptional build quality made for the
                                 passionate music enthusiast.</p>
                             <div>
-                                <a class="btn btn-primary" href="/headphones/xx99-mark-two-headphones">See Product</a>
+                                <a class="btn btn-primary" href="/audiophile/headphones/xx99-mark-two-headphones">See Product</a>
                             </div>
                         </div>
 
