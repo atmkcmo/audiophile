@@ -21,7 +21,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./src/images/assets/screenshot.png)
+![](./src/assets/images/screenshot.png)
 
 
 - Live Site URL: [https://atmkcmo.github.io/audiophile/](https://atmkcmo.github.io/audiophile/)
