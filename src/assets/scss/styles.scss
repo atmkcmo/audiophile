@@ -1,0 +1,158 @@
+// custom bootstrap 
+// ----------------
+$spacing: 4em;
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1100px,
+  xxl: 1110px
+);
+
+// colors
+$primary: #D87D4A;
+$primary-light: #fbaf85;
+$light: #F1F1F1;
+$dark: #101010;
+
+// typo
+$font-family-sans-serif: 'Manrope', sans-serif;
+$headings-font-weight: 700;
+$h1-font-size: 56px;
+$h2-font-size: 40px;
+$h3-font-size: 32px;
+$h4-font-size: 28px;
+$h5-font-size: 22px;
+$h6-font-size: 18px;
+$body-color: rgb(167, 167, 167);
+$headings-color: $dark;
+
+// buttons 
+$btn-border-radius: 0;
+$btn-border-radius-lg: $btn-border-radius;
+$btn-link-color: $light;
+
+// form elements
+$form-label-color:  $dark;
+$input-placeholder-color: #bbb;
+$input-color: $dark;
+
+@import "~bootstrap/scss/bootstrap";
+body {
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+a {
+    text-transform: uppercase; 
+}
+h1,h2,h3,h4,h5,h6, a {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.pre-header {
+    letter-spacing: 10px;
+    text-transform: uppercase
+}
+.btn-primary {
+    @include button-variant($primary, transparent, $light, $primary-light, transparent, $light);
+}
+.btn-link {
+    @include button-variant(transparent, transparent, #888, transparent, transparent,$primary);
+    letter-spacing: 2px;
+    text-decoration: none;
+    &:after {
+        content: '>';
+        color: $primary;
+        display: inline-block;
+        margin-left: 4px;
+        font-size: calc(1em * 1.5);
+        position: relative;
+        top: 2px;
+        transition: position 0.5s ease;
+    }
+    &:hover {
+        &:after {
+        
+            left: 4px;
+        } 
+    }
+    &--back {
+        &:before {
+            content: '<';
+            color: $primary;
+            display: inline-block;
+            margin-right: 4px;
+            font-size: calc(1em * 1.5);
+            position: relative;
+            top: 2px;
+            transition: position 0.5s ease;
+        }
+        &:after {
+            content: '';
+            display: none;
+        }
+        &:hover {
+            &:before {           
+                right: 4px;
+            } 
+        }
+    }
+}
+label {
+    color: $dark;
+    padding-bottom: .5em;
+}
+.section-spacing {
+    padding: $spacing 0;
+    @include media-breakpoint-up(lg) { 
+    }
+}
+
+.hero {
+    background-image: url('/src/assets/images/home/mobile/image-header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 72vh;
+    @include media-breakpoint-up(md) {
+        background-image: url('/src/assets/images/home/tablet/image-header.jpg');
+        height: 80vh;
+     }
+    @include media-breakpoint-up(lg) { 
+        background-image: url('/src/assets/images/home/desktop/image-hero.jpg');
+        height: 90vh;
+    }
+}
+
+
+.speaker1-hl {
+    background-color: #d87d4a;
+    padding: 3em 2em;
+    
+    &.pattern-bg {
+        background-image: url("/src/assets/images/home/desktop/pattern-circles.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}
+.speaker2-hl {
+    background-image: url('/src/assets/images/home/mobile/image-speaker-zx7.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    @include media-breakpoint-up(md) {
+        background-image: url('/src/assets/images/home/tablet/image-speaker-zx7.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+     }
+    @include media-breakpoint-up(lg) { 
+        background-image: url('/src/assets/images/home/desktop/image-speaker-zx7.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 0;
+    } 
+}
+
