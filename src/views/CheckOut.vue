@@ -4,9 +4,6 @@
             <div class="row">
                 <div class="col">
                     <a class="btn btn-link btn-link--back" @click="$router.go(-1)">back</a>
-                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#thankYouModal">
-                        Launch demo modal
-                    </button>
                 </div>
             </div>
             <div class="row section-spacing">
