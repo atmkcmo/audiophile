@@ -4,7 +4,6 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title">Cart ({{ cartItems.length }})</h5>
-                    <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
                     <a v-if="(cartItems.length > 0)" href="#" @click="removeAll">Remove all</a>
                 </div>
                 <div class="modal-body">

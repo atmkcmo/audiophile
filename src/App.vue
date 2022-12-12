@@ -13,12 +13,6 @@
             :cartItems="cartItems" 
             :cartTotal="cartTotal">
          </CartModal>
-
-
-       
-
-       
-
     </section>
 </template>
 

@@ -72,8 +72,6 @@ export default {
         },
         sortData() {
             let a = this.pageProducts;
-            // let b = a.sort((a, b) => Number(b.new) - Number(a.enew))
-            // return b;
         },
         setPageDate() {
             this.pageProducts = this.categories[this.pageCategory];

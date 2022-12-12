@@ -2,13 +2,11 @@
     <section class="best-gear-section section-spacing">
         <div class="row">
             <div class="col-lg-6 offset-lg-1 order-lg-2 text-end">
-
                 <picture>
                     <source media="(min-width: 1100px)" srcset="/src/assets/images/shared/desktop/image-best-gear.jpg">
                     <source media="(min-width: 675px)" srcset="/src/assets/images/shared/tablet/image-best-gear.jpg">
                     <img class="img-fluid" src="/src/assets/images/shared/mobile/image-best-gear.jpg">
-                </picture>
-                
+                </picture>             
             </div>
             <div class="col-lg-5  text-center text-lg-start">
                 <div class="d-flex flex-column justify-content-center h-100">

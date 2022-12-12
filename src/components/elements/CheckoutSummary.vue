@@ -2,8 +2,6 @@
     <div class="card">
         <div class="card-body">
             <section>
-                
-
                 <div v-for="(item, index) in cartItems" :key="index" class="d-flex justify-content-between align-items-center mb-3">
                     <div class="d-flex align-items-center">
                         <img class="rounded-2" :src="getSummaryImg(item.product.slug)" alt="" style="max-width: 60px">
@@ -16,9 +14,8 @@
                         x {{ item.quantity }}
                     </div>
                 </div>
-
-
             </section>
+            
             <section>
                 <div class="d-flex justify-content-between mb-2">
                     <span>Total</span>

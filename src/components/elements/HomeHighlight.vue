@@ -1,7 +1,6 @@
 <template>
     <div class="section-spacing">
 
-        <!-- first -->
         <section class="speaker1-hl hightlight-spacing text-center text-white rounded-3  pattern-bg">
             <div class="row">
                 <div class="col-lg-3 offset-lg-2">
@@ -30,9 +29,7 @@
                 </div>
             </div>
         </section>
-        <!-- first -->
-
-        <!-- middle -->
+ 
         <section class="speaker2-hl hightlight-spacing rounded-3">
             <div class="row h-100">
                 <div class="col-md-6 h-100 p-5">
@@ -53,9 +50,7 @@
                 </div>
             </div>
         </section>
-        <!-- middle -->
-
-        <!-- end -->
+       
         <section class="">
             <div class="row">
                 <div class="col-md-6 ">
@@ -72,11 +67,9 @@
                         }
                     }">See Product</router-link>
                     </div>
-
                 </div>
             </div>
         </section>
-        <!-- end -->
 
     </div>
 </template>
